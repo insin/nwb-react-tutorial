@@ -1,24 +1,27 @@
 {
   "name": "nwb-react-tutorial",
   "version": "1.0.0",
-  "description": "Describe nwb-react-tutorial here",
+  "description": "An implementation of the React tutorial using nwb middleware",
   "private": true,
   "scripts": {
     "build": "nwb build-react-app",
     "clean": "nwb clean-app",
-    "start": "nwb serve-react-app",
-    "test": "nwb test",
-    "test:coverage": "nwb test --coverage",
-    "test:watch": "nwb test --server"
+    "start": "node server.js"
   },
   "dependencies": {
-    "react": "15.3.0",
-    "react-dom": "15.3.0"
+    "body-parser": "1.15.2",
+    "express": "4.14.0"
   },
   "devDependencies": {
-    "nwb": "0.12.x"
+    "nwb": "0.12.x",
+    "react": "15.3.0",
+    "react-dom": "15.3.0",
+    "remarkable": "1.6.2"
   },
-  "author": "",
+  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insin/nwb-react-tutorial.git"
+  }
 }
