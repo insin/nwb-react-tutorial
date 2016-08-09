@@ -1,6 +1,6 @@
 # nwb-react-tutorial
 
-An implementation of the [React tutorial]((https://github.com/reactjs/react-tutorial) app using nwb middleware in the tutorial's API server to take advantage of nwb's zero-config default development setup, including:
+An implementation of the comment box from [the React tutorial](https://facebook.github.io/react/docs/tutorial.html) using nwb's middleware in the tutorial's API server to take advantage of nwb's default development setup, including:
 
 - ES6 `class` components, shorthand properties, arrow functions, computed property names, module syntax, spread operator
 - Stage 2 class properties
